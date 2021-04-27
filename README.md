@@ -2,7 +2,7 @@
 Script to automate the process of checking a URL with different ExpressVPN proxies and take screenshots of the content.
 
 # Usage
-'''
+```
 usage: spress.py [-h] [--keyword KEYWORD] [--width WIDTH] [--height HEIGHT] [--url URL] [--exuser EXUSER]
                  [--expass EXPASS]
 
@@ -21,12 +21,12 @@ Required arguments:
                         set ExpressVPN username
   --expass EXPASS, -exp EXPASS
                         set ExpressVPN password
-'''
+```
 
 # requirements.txt
-'''
+```
 requests
 webbrowser
 expressvpn
 pyscreenshot
-'''
+```
